@@ -1,1 +1,14 @@
-
+To write a C-program to implement the producer – consumer problem using
+semaphores.
+ALGORITHM:
+Step 1: Start the program.
+Step 2: Declare the required variables.
+Step 3: Initialize the buffer size and get maximum item you want to produce.
+Step 4: Get the option, which you want to do either producer, consumer or exit from the
+operation.
+Step 5: If you select the producer, check the buffer size if it is full the producer should not
+produce the item or otherwise produce the item and increase the value buffer size.
+Step 6: If you select the consumer, check the buffer size if it is empty the consumer should not
+consume the item or otherwise consume the item and decrease the value of buffer size.
+Step 7: If you select exit come out of the program.
+Step 8: Stop the program.
